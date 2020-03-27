@@ -19,7 +19,14 @@ div#suggested-topics,
 }
 
 .d-header-icons .d-icon,
-div.menu-links-header .fa, div.menu-links-header a {
+div.menu-links-header .fa, 
+div.menu-links-header a,
+.topic-list-item.visited a.title:not(.badge-notification), 
+.latest-topic-list-item.visited a.title:not(.badge-notification), 
+.category-topic-link.visited a.title:not(.badge-notification),
+.topic-list td,
+table th
+ {
   color: $primary;
 }
 
