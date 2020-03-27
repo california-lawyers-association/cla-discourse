@@ -2,6 +2,11 @@
 
 @import "common/foundation/variables";
 
+
+.list-cell, .table-heading, .category-list td, .category-list th {
+    color: #primary;
+}
+
 @mixin box-shadow($value: 8px) {
   box-shadow: 0 1px $value rgba(black, 0.18);
 }
