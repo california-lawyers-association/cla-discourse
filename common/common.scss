@@ -4,7 +4,7 @@
 
 
 .list-cell, .table-heading, .category-list td, .category-list th {
-    color: #primary;
+    color: $primary;
 }
 
 @mixin box-shadow($value: 8px) {
