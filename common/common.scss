@@ -20,7 +20,7 @@ div#suggested-topics,
 
 .d-header-icons .d-icon,
 div.menu-links-header .fa, div.menu-links-header a {
-  color: primary;
+  color: $primary;
 }
 
 @mixin box-shadow($value: 8px) {
