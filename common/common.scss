@@ -2,6 +2,17 @@
 
 @import "common/foundation/variables";
 
+// Hide suggested topics
+div#suggested-topics,
+.suggested-topics-wrapper {
+    display: none !important;
+}
+
+// Hide share and bookmark buttons
+#topic-footer-button-bookmark,
+#topic-footer-button-share-and-invite {
+    display: none;
+}
 
 .list-cell, .table-heading, .category-list td, .category-list th {
     color: $primary;
