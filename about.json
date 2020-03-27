@@ -8,11 +8,14 @@
   "color_schemes": {
     "CLA": {
       "primary": "1b3036",
+      "primary-very-low": "1b3036",
       "primary-low": "1b3036",
-      "primary-low-min": "1b3036",
+      "primary-low-mid": "1b3036",
+      "primary-high": "1b3036",
       "secondary": "ffffff",
       "tertiary": "ba8a69",
       "tertiary-low": "eae4da",
+      "tertiary-medium": "eae4da",
       "quaternary": "547b82",
       "header_background": "ffffff",
       "header_primary": "1b3036",
