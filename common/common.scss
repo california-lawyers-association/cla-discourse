@@ -18,6 +18,11 @@ div#suggested-topics,
     color: $primary;
 }
 
+.d-header-icons .d-icon,
+div.menu-links-header .fa, div.menu-links-header a {
+  color: primary;
+}
+
 @mixin box-shadow($value: 8px) {
   box-shadow: 0 1px $value rgba(black, 0.18);
 }
