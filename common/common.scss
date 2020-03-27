@@ -25,10 +25,12 @@ div.menu-links-header a,
 .latest-topic-list-item.visited a.title:not(.badge-notification), 
 .category-topic-link.visited a.title:not(.badge-notification),
 .topic-list td,
-table th
+table th,
+.d-editor-button-bar .d-header-icons .d-icon
  {
   color: $primary;
 }
+
 
 @mixin box-shadow($value: 8px) {
   box-shadow: 0 1px $value rgba(black, 0.18);
