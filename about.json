@@ -8,6 +8,7 @@
   "color_schemes": {
     "CLA": {
       "primary": "1b3036",
+      "primary-low": "1b3036",
       "secondary": "ffffff",
       "tertiary": "ba8a69",
       "tertiary-low": "eae4da",
