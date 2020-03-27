@@ -1,1 +1,10 @@
+<!-- Close the post editor preview by default -->
+<script type="text/discourse-plugin" version="0.8">
+    controller = api.container.lookup('controller:composer');
+    
+    controller.reopen({
+      showPreview: false 
+    })
+</script>
+
 <div class="background-container"></div>
