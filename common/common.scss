@@ -2,20 +2,26 @@
 
 @import "common/foundation/variables";
 
+.d-header #site-logo {
+  height: 3.5em;
+  max-height: 3.5em;
+}
+
+
 // Hide suggested topics
 div#suggested-topics,
 .suggested-topics-wrapper {
-    display: none !important;
+  display: none !important;
 }
 
 // Hide share and bookmark buttons
 #topic-footer-button-bookmark,
 #topic-footer-button-share-and-invite {
-    display: none;
+  display: none;
 }
 
 .list-cell, .table-heading, .category-list td, .category-list th {
-    color: $primary;
+  color: $primary;
 }
 
 .d-header-icons .d-icon,
