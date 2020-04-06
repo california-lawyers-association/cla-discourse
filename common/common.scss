@@ -2,6 +2,14 @@
 
 @import "common/foundation/variables";
 
+div.education {
+  color: $primary;
+}
+
+.d-editor-button-bar .btn .d-icon {
+  color: $primary;
+}
+
 // hide category picker in menu
 ol.category-breadcrumb {
   display: none;
