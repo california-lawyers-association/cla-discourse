@@ -10,7 +10,7 @@ ol.category-breadcrumb {
 /* hide bookmarks in the main menu */
 .widget-link.user-bookmarks-link.active,
 .widget-link.user-bookmarks-link {
-  display: none;
+  display: none !important;
 }
 
 /* hide cakeday from main menu */
