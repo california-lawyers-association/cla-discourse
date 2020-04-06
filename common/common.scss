@@ -2,6 +2,12 @@
 
 @import "common/foundation/variables";
 
+// hide category picker in menu
+
+#ember701 {
+  display: none;
+}
+
 a.mention {
   color: #fff;
   padding: 3px 5px;
