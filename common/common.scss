@@ -6,8 +6,12 @@ div.education {
   color: $primary;
 }
 
-.d-editor-button-bar .btn .d-icon {
+.panel-body-contents.clearfix a {
   color: $primary;
+}
+
+.d-editor-button-bar .btn .d-icon {
+  color: $primary !important;
 }
 
 // hide category picker in menu
