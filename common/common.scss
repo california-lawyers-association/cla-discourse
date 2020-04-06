@@ -3,8 +3,27 @@
 @import "common/foundation/variables";
 
 // hide category picker in menu
-
 ol.category-breadcrumb {
+  display: none;
+}
+
+/* hide bookmarks in the main menu */
+.widget-link.user-bookmarks-link.active {
+  display: none;
+}
+
+/* hide cakeday from main menu */
+.widget-link.cakeday-link {
+  display: none !important;
+}
+
+/* reduce height of menu because of hidden links */
+.menu-panel .panel-body {
+  max-height: 40vh;
+}
+
+.category-links.clearfix,
+.categories-separator {
   display: none;
 }
 
