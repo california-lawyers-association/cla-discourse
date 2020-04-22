@@ -19,6 +19,11 @@ ol.category-breadcrumb {
   display: none;
 }
 
+// Hide pin/unpin button
+.pinned-button {
+    display: none;
+}
+
 /* hide bookmarks in the main menu */
 .widget-link.user-bookmarks-link.active,
 .widget-link.user-bookmarks-link {
