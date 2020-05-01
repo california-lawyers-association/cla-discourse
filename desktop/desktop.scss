@@ -1,5 +1,11 @@
 @import "common/foundation/variables";
 
+.category-covid19 .ad-covid img,
+.category-biz-career-dev .ad-career img,
+.category-health-wellness .ad-health img {
+    width: 80% !important;
+}
+
 h3 {
   font-weight: normal;
 }
