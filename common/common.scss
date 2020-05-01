@@ -2,6 +2,16 @@
 
 @import "common/foundation/variables";
 
+.ad-career,
+.ad-covid,
+.ad-health {
+    display: none;
+}
+
+.category-covid19 .ad-covid {
+    display: initial;
+}
+
 div.education {
   color: $primary;
 }
