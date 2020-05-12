@@ -8,6 +8,11 @@
     display: none;
 }
 
+/* Hide category lock because all categories are locked to CLA members only */
+svg.fa.d-icon.d-icon-lock.svg-icon.svg-string {
+    display: none;
+}
+
 .category-covid19 .ad-covid,
 .category-biz-career-dev .ad-career,
 .category-health-wellness .ad-health {
