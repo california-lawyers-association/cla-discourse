@@ -2,6 +2,12 @@
 
 @import "common/foundation/variables";
 
+
+/* Hide category descriptions */
+.category-description {
+    display: none;
+}
+
 header.d-header {
     top: 0;
 }
